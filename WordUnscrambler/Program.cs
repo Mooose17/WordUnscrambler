@@ -18,7 +18,7 @@ namespace WordUnscrambler
                 bool continueWordUnscramble = true;
                 do
                 {
-                    Console.WriteLine("Please enter option - F for file, M for Manual");
+                    Console.WriteLine(Constants.OptionsOnHowToEnterScrambledWords);
                     var option = Console.ReadLine() ?? String.Empty;
 
                     switch (option.ToUpper())
